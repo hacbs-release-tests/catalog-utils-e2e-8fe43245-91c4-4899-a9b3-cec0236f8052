@@ -115,7 +115,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: set-severity
-      image: quay.io/konflux-ci/release-service-utils@sha256:25bf8d3101006ebf7cd2c9d779318bb6cf2d62897c0f385cd801365663009e09
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:45d4342b0eda027dd43588beb608047d5de76e831c9e9b832f1d3ef3ed63f925
       computeResources:
         limits:
           memory: 768Mi

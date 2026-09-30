@@ -156,7 +156,7 @@ spec:
         - name: orasOptions
           value: $(params.orasOptions)
     - name: add-fbc-contribution
-      image: quay.io/konflux-ci/release-service-utils@sha256:c28eae8db6a90b727f591f8b28f9b7f2f331ec7d504a30c1f69052623a362a66
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:45d4342b0eda027dd43588beb608047d5de76e831c9e9b832f1d3ef3ed63f925
       computeResources:
         limits:
           memory: 512Mi

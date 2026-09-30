@@ -127,7 +127,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: collect-charon-params
-      image: quay.io/konflux-ci/release-service-utils@sha256:17925cd6c631c3828966457099f117c894eb01983b8639920bf82b1a5e1841d0
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:45d4342b0eda027dd43588beb608047d5de76e831c9e9b832f1d3ef3ed63f925
       computeResources:
         limits:
           memory: 192Mi

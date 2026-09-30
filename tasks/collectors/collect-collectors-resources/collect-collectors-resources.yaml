@@ -79,7 +79,7 @@ spec:
         readOnly: true
   steps:
     - name: collect-collectors-resources
-      image: quay.io/konflux-ci/release-service-utils@sha256:2ae61d5886887b230860934bfc7719453e44bc8882fab5ad84a483a720c5763d
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:45d4342b0eda027dd43588beb608047d5de76e831c9e9b832f1d3ef3ed63f925
       env:
         - name: "PREVIOUS_RELEASE"
           value: '$(params.previousRelease)'

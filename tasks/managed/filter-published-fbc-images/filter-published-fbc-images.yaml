@@ -110,7 +110,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: setup-pyxis-cert
-      image: quay.io/konflux-ci/release-service-utils:cee1fd0191e750b0736d8197701d91ce2f308e03
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:45d4342b0eda027dd43588beb608047d5de76e831c9e9b832f1d3ef3ed63f925
       computeResources:
         limits:
           memory: 64Mi
@@ -130,7 +130,7 @@ spec:
         echo "${PYXIS_CERT}" > /var/workdir/crt
         echo "${PYXIS_KEY}" > /var/workdir/key
     - name: filter-already-released-images
-      image: quay.io/konflux-ci/release-service-utils:cee1fd0191e750b0736d8197701d91ce2f308e03
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:45d4342b0eda027dd43588beb608047d5de76e831c9e9b832f1d3ef3ed63f925
       computeResources:
         limits:
           memory: 512Mi

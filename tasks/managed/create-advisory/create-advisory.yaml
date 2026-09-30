@@ -153,7 +153,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: create-advisory
-      image: quay.io/konflux-ci/release-service-utils@sha256:26b772928384de22a94b6bde27cc7f881e0c9c5cf9d16df0f816853158658999
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:45d4342b0eda027dd43588beb608047d5de76e831c9e9b832f1d3ef3ed63f925
       computeResources:
         limits:
           memory: 512Mi

@@ -127,7 +127,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: push-artifacts-to-storage
-      image: quay.io/konflux-ci/release-service-utils@sha256:e4b9c669bd86e7bbb7cce855f5c8deecb472ca93f5da371b18f208aa9841993b
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:45d4342b0eda027dd43588beb608047d5de76e831c9e9b832f1d3ef3ed63f925
       computeResources:
         limits:
           memory: 512Mi

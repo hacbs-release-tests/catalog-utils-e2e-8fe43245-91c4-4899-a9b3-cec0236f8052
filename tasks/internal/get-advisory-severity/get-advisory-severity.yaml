@@ -57,7 +57,7 @@ spec:
       runAsUser: 1001
   steps:
     - name: get-advisory-severity
-      image: quay.io/konflux-ci/release-service-utils@sha256:a7c2f6ae40cc5cd0d333e56c45200530a592ac9d7932bc6818cfa2e710c7457f
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:45d4342b0eda027dd43588beb608047d5de76e831c9e9b832f1d3ef3ed63f925
       computeResources:
         limits:
           memory: 256Mi

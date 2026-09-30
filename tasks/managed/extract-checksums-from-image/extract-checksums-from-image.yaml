@@ -124,7 +124,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: extract-checksums-from-image
-      image: quay.io/konflux-ci/release-service-utils@sha256:9662fe3a1cea0cac79c4504abbaa13b6366b5ec5b9aadeaff0395da574c5ac72
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:45d4342b0eda027dd43588beb608047d5de76e831c9e9b832f1d3ef3ed63f925
       computeResources:
         limits:
           memory: 512Mi
